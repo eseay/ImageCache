@@ -11,7 +11,7 @@ let package = Package(
         .library(name: "ImageCache", targets: ["ImageCache"])
     ],
     dependencies: [
-        .package(url: "https://github.com/jaredsinclair/etcetera", .branch("master"))
+        .package(url: "https://github.com/eseay/etcetera", .branch("master"))
     ],
     targets: [
         .target(
